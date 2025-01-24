@@ -1,0 +1,143 @@
+/* Center the content with a dark theme */
+/* Import Google Fonts for fancy font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Center the content with a dark theme */
+body {
+    font-family: 'Poppins', sans-serif; /* Use the imported Poppins font */
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling the container */
+.container {
+    text-align: center;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Align form elements properly */
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* Style inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Style button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Password output styling */
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00ff00;
+    word-wrap: break-word;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling the container */
+.container {
+    text-align: center;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Style inputs */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #333;
+    color: #fff;
+}
+
+/* Style button */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Password output styling */
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ff00;
+    word-wrap: break-word;
+}
